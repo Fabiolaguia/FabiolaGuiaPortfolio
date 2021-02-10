@@ -6,6 +6,7 @@
     <title>Portfolio Fabiola Guia</title>
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,80 +36,89 @@
    
        </nav>
 
-       <div id="home">
-           <div>
+       <div id="home" class="Grupo">
+           <div class="GrupoHero">
                <img src="./img/img 1.jpg">
                <h2>Estructura de Sistema</h2>
                <p>Contenido de la imagen</p>
            </div>
-           <div>
+           <div class="GrupoHero">
               <img src="./img/img 2.jpg">
               <h2>Estructura de Sistema 2 </h2>
               <p>Contenido de la imagen 2 </p>
             </div>
-            <div>
+            <div class="GrupoHero">
                 <img src="./img/img3.jpg">
                 <h2>Estructura de Sistema 3</h2>
                 <p>Contenido de la imagen 3</p>
             </div>
        </div>
-     <div id="experience">
-           <div>
-               <h2>Pagina web para Pretty Little things</h2>
+     <div id="experience" class="Grupo cards" > 
+           <div class="GrupoExperience">
+               <h2>Página web para Pretty Little things</h2>
                <p>Tecnologias utilizadas: Html, JavaScript y Css.</p>
                <p>Fecha de Ejecucion: 24 de Enero del 2014.</p>
-               <img src="./img/img4.jpg">
-               <a href="https://www.prettylittlething.us/">Link para la pagina web</a> 
+               <img class="ImagenesExp"  src="./img/img4.jpg">
+               <br>
+               <a href="https://www.prettylittlething.us/">
+                Link para la pagina web</a> 
             </div>
-           <div>
-               <h2>Pagina web para Asos</h2>
+           <div class="GrupoExperience">
+               <h2>Página web para Asos</h2>
                <p>Tecnologias utilizadas: Html, JavaScript y Css.</p>
                <p>Fecha de Ejecucion: 15 de Mayo del 2015.</p>
-               <img src="./img/img5.jpg">
+               <img class="ImagenesExp" src="./img/img5.jpg">
+               <br>
                <a href="https://www.asos.com/">Link para la pagina web</a> 
             </div>
-            <div>
-               <h2>Pagina web para Abercrombie</h2>
+            <div class="GrupoExperience">
+               <h2>Página web para Abercrombie</h2>
                <p>Tecnologias utilizadas: Html, JavaScript y Css.</p>
                <p>Fecha de Ejecucion: 24 de Abril del 2016.</p>
-               <img src="./img/img6.jpg">
+               <img class="ImagenesExp" src="./img/img6.jpg">
+               <br>
                <a href="https://www.abercrombie.com/shop/wd-es">Link para la pagina web</a> 
             </div>
-            <div>
-                <h2>Pagina web para Forever 21</h2>
+            <div class="GrupoExperience">
+                <h2>Página web para Forever 21</h2>
                 <p>Tecnologias utilizadas: Html, JavaScript y Css.</p>
                 <p>Fecha de Ejecucion: 2 de Marzo del 2019.</p>
-                <img src="./img/img7.jpg">
+                <img class="ImagenesExp" src="./img/img7.jpg">
+                <br>
                 <a href="https://www.forever21.com/">Link para la pagina web</a> 
             </div>
          </div>
 
-        <div id="aboutMe">
-            <img src="./img/img8.PNG">
-            <h3>Fabiola Valentina Guia Figueroa</h3>
-            <p>Soy estudiante de Ingeniería de Sistemas</p>
-            <p>Tengo 21 años de edad</p>
-            <p>Objetivo a corto plazo: Graduarme de la Universidad Metropolitana</p>
-            <p>Objetivo a largo plazo: Especializarme en el área de Domótica</p>
-            <p>Me encanta la playa, conocer lugares nuevos y practicar distintos deportes</p>
+        <div id="aboutMe" class="Grupo">
+            <div id="abMiFoto" class="FormatoRect">
+                <img class="ImagenAbout" src="./img/img8.PNG">
+            </div>
+            <div id="abMiTexto" class="FormatoRect"> 
+              <h3>Fabiola Valentina Guia Figueroa</h3>
+              <p>Soy estudiante de Ingeniería de Sistemas</p>
+              <p>Tengo 21 años de edad</p>
+              <p>Objetivo a corto plazo: Graduarme de la Universidad Metropolitana</p>
+              <p>Objetivo a largo plazo: Especializarme en el área de Domótica</p>
+              <p>Me encanta la playa, conocer lugares nuevos y practicar distintos deportes</p>
+            </div>
 
 
         </div>
 
-        <div id="skills">
+        <div id="skills" class="Grupo">
 
-            <div>
+            <div class="GrupoSkills">
               JavaScript
              </div>
-            <div>
+            <div class="GrupoSkills">
               Css 
             </div>
-            <div>
+            <div class="GrupoSkills">
               Html
             </div>
         </div>
 
-       <div id="contact">
+       <div id="contact" class="Grupo">
            <form method="post" action="#">
                    <label> Nombre </label>
                    <input type="text" />
