@@ -23,11 +23,12 @@ var json_data = {
     json_data["habilidades"].forEach((e)=>{
     elemento = elemento + '<div class="GrupoSkills"> <strong class="largo" style="width:'+e["porcentaje"]+'%;">'+ e["nombre"]+" "+e["porcentaje"]+'%</strong></div>';
     padre.innerHTML = elemento;
-    })
+    });
+		showSlides();
     }
 
     var slideIndex = 0;
-showSlides();
+
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("slide");
